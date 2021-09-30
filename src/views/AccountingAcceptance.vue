@@ -66,8 +66,6 @@ export default {
       this.currentStepNumber = step;
       this.currentStep = `step-${step}`;
       this.scrollToTop();
-
-      console.log(this.currentStepNumber);
     },
     scrollToTop() {
       window.scrollTo(0, 0);
