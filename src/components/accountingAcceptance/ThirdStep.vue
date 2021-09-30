@@ -179,13 +179,11 @@
         <v-divider></v-divider>
         <v-row class="my-4">
           <v-col class="text-start d-flex justify-space-between">
-            <v-btn outlined class="mx-0 mt-3" @click="$emit('previousStep')">
+            <v-btn class="mx-0 mt-3" @click="$emit('previousStep')">
               <v-icon left> mdi-arrow-left </v-icon>
               Faktury
             </v-btn>
-            <v-btn class="mx-0 mt-3" color="primary" @click="$emit('nextStep')">
-              Zatwierdź
-            </v-btn>
+            <v-btn class="mx-0 mt-3" color="primary"> Zatwierdź </v-btn>
           </v-col>
         </v-row>
       </v-card>

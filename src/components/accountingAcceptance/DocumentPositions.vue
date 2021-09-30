@@ -11,7 +11,7 @@
             @click="$emit('duplicate')"
             >Duplikuj</v-btn
           >
-          <v-btn color="secondary" elevation="2">Usuń</v-btn>
+          <v-btn elevation="2">Usuń</v-btn>
         </v-col>
       </v-row>
       <v-row>
